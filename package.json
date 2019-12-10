@@ -1,0 +1,37 @@
+{
+  "name": "react-redux-extended-hooks",
+  "version": "1.0.0",
+  "description": "A React Hooks for React Redux applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koba04/react-redux-extended-hooks.git"
+  },
+  "keywords": ["react", "redux", "react-redux", "hooks"],
+  "author": "koba04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koba04/react-redux-extended-hooks/issues"
+  },
+  "homepage": "https://github.com/koba04/react-redux-extended-hooks#readme",
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/react": "^16.9.16",
+    "@types/react-redux": "^7.1.5",
+    "@types/react-test-renderer": "^16.9.1",
+    "jest": "^24.9.0",
+    "react": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-test-renderer": "^16.12.0",
+    "redux": "^4.0.4",
+    "typescript": "^3.7.3"
+  }
+}
