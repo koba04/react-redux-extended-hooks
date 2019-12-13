@@ -10,6 +10,9 @@
     "release:dryrun": "standard-version --dry-run",
     "test": "jest"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/koba04/react-redux-extended-hooks.git"
