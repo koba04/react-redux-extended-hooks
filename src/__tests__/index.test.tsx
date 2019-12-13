@@ -2,7 +2,7 @@ import React from 'react'
 import { create, act, ReactTestRenderer } from 'react-test-renderer'
 import { Provider } from 'react-redux'
 import { createStore, Store, Dispatch } from 'redux'
-import { useShallowEqualSelector, useDispatchHandler, useDispatchEffect, useDispatchEffectManualDeps } from '.'
+import { useShallowEqualSelector, useDispatchHandler, useDispatchEffect, useDispatchEffectManualDeps } from '..'
 
 // You can re-render using a returned function
 const renderWithStore = (store: Store, element: React.ReactNode): ((element: React.ReactNode) => void) => {
