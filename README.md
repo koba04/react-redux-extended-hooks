@@ -1,4 +1,6 @@
 # react-redux-extended-hooks
+![npm](https://img.shields.io/npm/v/react-redux-extended-hooks)
+
 A React Hooks for React Redux applications
 
 ## How to use
