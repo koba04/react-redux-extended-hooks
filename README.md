@@ -13,7 +13,11 @@ npm install react redux react-redux
 
 ### useShallowEqualSelector
 
-TBA
+This is a custom hooks for a selector, which uses `shallowEqual` for the comparison.
+This is what `connect` does.
+`useSelector` uses `===` for the comparison so it sometimes causes undesirable updates.
+
+https://react-redux.js.org/api/hooks#recipe-useshallowequalselector
 
 ```ts
 const state = useShallowEqualSelector((state: any) => state)
