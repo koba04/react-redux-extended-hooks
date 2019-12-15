@@ -27,16 +27,42 @@ const state = useShallowEqualSelector((state: any) => state)
 
 ### useDispatchHandler
 
-TBA
+This is a custom hook to define a handler using closure values and its arguments.
+
+- `(dispatch, ...closureVariables) => (...paramsOfHandler) => void`
+
 
 ```ts
+const handlePagination = (dispatch, pagination) => (nextPage) => {
+    //...
+}
+
+const App = () => {
+    const pagination = usePagination();
+    const onChangePagination = useDispatchHandler(handlePagination, pagination)
+    return (
+        <Pagination
+            pagination={pagination}
+            onClick={onChangePagination}
+        />
+    );
+}
 ```
 
 ### useDispatchEffect
 
-TBA
+This is a custom hook to define a effect handler using `dispatch`.
 
 ```ts
+const fetchNewData = (dispatch, userId) => {
+    // ...
+}
+
+const App = () => {
+    const user = useShallowEqualSelector(state => state.user);
+    useDispatchEffect(fetchNewData, user.id);
+    // ...
+}
 ```
 
 ### useDispatchEffectManualDeps
