@@ -50,6 +50,6 @@
     "redux": "^4.0.5",
     "rimraf": "^3.0.2",
     "standard-version": "^7.0.1",
-    "typescript": "^3.7.5"
+    "typescript": "^3.9.10"
   }
 }
